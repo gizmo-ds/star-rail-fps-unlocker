@@ -5,6 +5,9 @@ on:
     branches: [main]
     tags: [v*]
 
+permissions:
+  contents: write
+
 jobs:
   release:
     name: Release new version
